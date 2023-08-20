@@ -1,3 +1,10 @@
-export default function App () {
-  return "Hi!"
+import "./App.scss"
+import Home from './home/Home'
+
+export default function App() {
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
