@@ -21,7 +21,7 @@ export default function Navbar() {
           />
           <span>Homepage</span>
           <span>Series</span>
-          <span>Moviews</span>
+          <span>Movies</span>
           <span>New and Popular</span>
           <span>My List</span>
         </div>
