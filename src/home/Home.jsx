@@ -9,6 +9,8 @@ export default function App() {
       <Navbar />
       <Featured />
       <List />
+      <List />
+      <List />
     </div>
   );
 }

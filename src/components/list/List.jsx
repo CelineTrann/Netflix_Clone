@@ -1,4 +1,5 @@
 import { ArrowBackIosOutlined, ArrowForwardIosOutlined } from '@mui/icons-material';
+import ListItem from '../listItem/ListItem';
 import './List.scss'
 
 export default function List() {
@@ -6,11 +7,19 @@ export default function List() {
     <div className='list'>
       <span className="listTitle">Continue to watch</span>
       <div className="wrapper">
-        <ArrowBackIosOutlined />
+        <ArrowBackIosOutlined className="sliderArrow left" />
         <div className="container">
-          
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
+          <ListItem />
         </div>
-        <ArrowForwardIosOutlined />
+        <ArrowForwardIosOutlined className="sliderArrow right" />
       </div>
     </div>
   );
