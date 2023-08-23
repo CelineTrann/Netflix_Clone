@@ -1,8 +1,11 @@
-# React + Vite
+# Netflix UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Netflix UI Clone created using React and SCSS. This was done following ![this tutorial](https://www.youtube.com/watch?v=FzWG8jiw4XM&t=4936s&ab_channel=LamaDev) with some modifications.
 
-Currently, two official plugins are available:
+# To Run
+1. Clone the repository
+2. Haev React and Vite installed
+3. Install the necessary modules using `npm i`
+4. Run using `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently the various pages are not connected. To see the different pages, change the component in the `App.jsx` file.
